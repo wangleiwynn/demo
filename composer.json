@@ -15,6 +15,12 @@
       "url": "https://packagist.phpcomposer.com"
     }
   },
-  "require": {
-  }
+  "require": {},
+    "autoload":{
+      "psr-4":{
+        "core\\":"core",
+        "web\\":"web"
+      }
+    }
+
 }
